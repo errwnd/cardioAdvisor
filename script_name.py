@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 import joblib  # Import joblib for loading the model
 
 # Load the pre-trained logistic regression model
-model = joblib.load("heart_model.joblib")  # Replace with the actual path to your saved model file
+model = joblib.load("/heart_model.joblib")  # Replace with the actual path to your saved model file
 
 def main():
     st.title("Heart Disease Prediction App")

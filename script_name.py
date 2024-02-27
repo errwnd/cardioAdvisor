@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import LogisticRegression
+from sklearn.linear_model import LogisticRegression
 import joblib  # Import joblib for loading the model
 
 # Load the pre-trained logistic regression model
